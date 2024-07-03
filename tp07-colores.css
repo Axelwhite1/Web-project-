@@ -1,0 +1,61 @@
+body  {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+h1  {
+    color: aquamarine;
+    font-size: medium;
+}
+
+P {
+    font-size: medium;
+    color: darkred;
+}
+
+a:hover {
+    color:crimson
+}
+a:active {
+    color: chocolate;
+}
+
+
+#parte-principal {
+    background-color: blueviolet;
+    color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+#pie-pagina {
+    background-color: forestgreen;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item  a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.titulo {
+    font-size: 16px;
+    color: gold;
+}
+
+.parrafo {
+    font-size: 16px;
+    color: orange;
+}
+ 

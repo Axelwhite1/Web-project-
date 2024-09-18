@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+
+header, nav, main, aside, footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+aside {
+    width: 35%;
+    float: left;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+}
+
+h1  { 
+
+color: #810707;
+background-color: #bbff00;
+}
+
+ /* el padding se utiliza para establecer el area de relleno en los cuatro lados de algn tituloo texto a la vez, por ejemplo ,
+ 1em; aplica a los cuatro lados, 5% 10%; cuando se especifican 2 valorese primer relleno se aplica  a la parte de "arriba y abajo" y la segunda a la "dereha y izquierda".
+Cuando se especifican tres valores, el primer relleno se aplica a la parte de arriba, el segundo a la derecha e izquierda, el tercero a la parte de abajo.
+     Cuando se especifican cuatro valores, los rellenos se aplican a la parte de arriba, derecha, abajo e izquierda en ese orden (en el sentido de las agujas del reloj).
+ */
+
+ /* */

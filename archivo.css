@@ -1,0 +1,64 @@
+h1 { 
+   color: darkred;
+   background-color: #e2e074;
+   width: 19%;
+   text-align: center;
+   margin-inline-start: 35%;
+} 
+  
+h2 {  
+    color: darkred;
+
+}    
+
+h4  {  
+
+    color: darkred;
+
+
+}   
+
+article {
+ 
+    justify-items: center;
+    align-items: center;
+    
+
+
+}   
+
+section {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: solid;
+}
+ 
+header {
+
+text-align: center;
+
+
+}
+
+body  {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #e79b5c;
+
+
+}
+ 
+a {
+    background-color: #ffffff;
+    transition: backround-color 0.7;
+    color: #a10f0f;
+ }
+
+  a:hover  {
+
+    background-color: rgb(221, 230, 107);
+
+
+  }

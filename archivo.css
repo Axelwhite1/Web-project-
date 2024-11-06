@@ -4,6 +4,7 @@ h1 {
    width: 19%;
    text-align: center;
    margin-inline-start: 35%;
+   
 } 
   
 h2 {  
@@ -62,3 +63,25 @@ a {
 
 
   }
+
+  
+.color_negro {
+
+color: #0a0909;
+
+}
+
+.menu {
+
+color: #220f00;
+
+
+}
+
+.container {   
+
+color: #0a0909;
+width: max-content;
+text-align: center;
+
+}

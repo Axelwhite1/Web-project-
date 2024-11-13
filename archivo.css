@@ -81,7 +81,24 @@ color: #220f00;
 .container {   
 
 color: #0a0909;
-width: max-content;
-text-align: center;
+width: 70%;
+text-align: start;
+justify-content: center;
 
+}
+
+.container2  { 
+ 
+  width: max-content;
+  justify-content: flex-start;
+
+
+}
+
+
+.container3  { 
+ 
+  
+  justify-content: center;
+  align-items: baseline;
 }

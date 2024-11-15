@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #222;
+    background-color: #030303;
 }
 
 header .logo  h1 {
@@ -59,7 +59,7 @@ header nav a:hover {
 }
 
 .cta-button {
-    background-color: #00ff00;
+    background-color: #949692;
     color: black;
     padding: 15px 30px;
     text-decoration: none;
@@ -69,7 +69,7 @@ header nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #00cc00;
+    background-color: #000000;
 }
 
 /* Sección de Juegos Populares */
@@ -182,10 +182,24 @@ a {
     transition: color 0.3s ease;
 }
 
-a:hover {
+h1 {
+    color: #2fff00;
+}
+     
+a:link {
+    color: rgb(251, 251, 251); /* Enlaces no visitados */
+}
+  
+a:visited {
+        color: rgb(110, 29, 140); /* Enlaces visitados */
+}    
+
+ a:hover {
     color: #ff0000; /* Rojo */
 }
 
- h1 {
-color: #2fff00;
- }
+
+
+a:active {
+    color: rgb(0, 0, 0); /* Mientras haces clic */
+}

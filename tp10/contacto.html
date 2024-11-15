@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoJuegos Xtreme - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado con Navegación -->
+    <header>
+        <div class="logo">
+            <h1>Speed Gaming.ng</h1>
+        </div>
+        <nav>
+            <a href="tp10.html">Inicio</a>
+            <a href="trailers.html">trailers</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+<style> 
+    /* Estilos para la Sección de Contacto */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00ff00; /* Título en verde para destacar */
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para el Formulario */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #1fff1f;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+    font-size: 1em;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00ff00; /* Efecto de borde verde al hacer foco */
+}
+
+.contact-form button {
+    width: 100%;
+    background-color: #00ff00;
+    color: black;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #00cc00; /* Cambia el color en hover */
+}
+
+/* Efecto para botones en dispositivos móviles */
+.contact-form button:active {
+    background-color: #009900;
+    transform: scale(0.98);
+}
+
+</style>
+    <!-- Sección de Contacto -->
+    <section class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o sugerencia? ¡Nos encantaría escucharte!</p>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 VideoJuegos Xtreme. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

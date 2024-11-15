@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+header .logo  h1 {
+    font-size: 2.5em;
+      /* Verde brillante, color llamativo */
+   
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    color: #00ff00; /* Cambia el color al pasar el ratón */
+    border-bottom: 2px solid #00ff00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('gaming-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #00ff00;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #00cc00;
+}
+
+/* Sección de Juegos Populares */
+.featured-games {
+    padding: 40px 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.featured-games h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #bba846;
+}
+
+.games-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background-color: #262626;
+    padding: 20px;
+    width: 27%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  
+    transition: transform 0.3s ease;
+    text-align: start;
+}
+
+.game-card:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.game-card h3 {
+    margin-top: 15px;
+    font-size: 1.6em;
+    color: #bba846;
+}
+
+/* Sección de Noticias */
+.news {
+    background-color: #222;
+    padding: 40px 20px;
+}
+
+.news h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #45ff28;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background-color: #444;
+    padding: 20px;
+    width: 48%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #45ff28;
+}
+
+.news-item a {
+    color: #45ff28;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    font-size: 1em;
+    color: white;
+} 
+
+u  {
+ 
+    color: #00cc00;
+
+} 
+
+
+
+a {
+    color: #000000; /* Azul */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff0000; /* Rojo */
+}
+
+ h1 {
+color: #2fff00;
+ }
